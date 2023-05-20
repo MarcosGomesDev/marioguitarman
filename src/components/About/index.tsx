@@ -24,7 +24,7 @@ const About = React.forwardRef<HTMLElement>((props, ref) => {
             color="#ff0000"
             style={{ marginLeft: -20, fontSize: 20 }}
           />
-          GUITARRISTA PROFISSIONAL MARIO GUITARMAN
+          GUITARRISTA PROFISSIONAL MÁRIO GUITARMAN
         </HighlightText>
         <Title>Mário Henrique Nunes Bezerra.</Title>
         <Text>

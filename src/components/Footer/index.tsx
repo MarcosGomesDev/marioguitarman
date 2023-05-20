@@ -4,7 +4,7 @@ import { FooterContainer, Title } from "./styles";
 const Footer: React.FC = () => {
   return (
     <FooterContainer>
-      <Title>Mario Guitarman &copy; 2023</Title>
+      <Title>Mário Guitarman &copy; 2023</Title>
     </FooterContainer>
   );
 };

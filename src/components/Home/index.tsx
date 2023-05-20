@@ -9,7 +9,7 @@ interface Props {
 const Home = React.forwardRef<HTMLElement, Props>(({ onClick }, ref) => {
   return (
     <Container ref={ref}>
-      <SubTitle>Mario Guitarman</SubTitle>
+      <SubTitle>Mário Guitarman</SubTitle>
       <Button onClick={onClick}>Saiba mais</Button>
 
       <MenuSocial>
