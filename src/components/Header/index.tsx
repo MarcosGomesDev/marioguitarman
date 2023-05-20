@@ -1,18 +1,15 @@
 import React, { useState } from "react";
 import {
   HeaderContainer,
-  Image,
   HeaderContent,
   MenuOption,
   MenuHeader,
-  Button,
   ButtonMenu,
   ListMenu,
   IconButton,
   MenuMobile,
   ItemMenu,
 } from "./styles";
-import Logo from "../../assets/icon.png";
 
 interface Props {
   onClickToHome(elementRef: any): void;
