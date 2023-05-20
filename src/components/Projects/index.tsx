@@ -69,7 +69,9 @@ const Projects = forwardRef<HTMLElement>((props, ref) => {
       </Content>
       <ContainerButton>
         <ButtonOutline
-          onClick={() => window.open("https://github.com/MarcosGomesDev")}
+          onClick={() =>
+            window.open("https://www.youtube.com/@marioguitarman8337/videos")
+          }
         >
           Abrir Youtube
         </ButtonOutline>
