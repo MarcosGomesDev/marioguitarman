@@ -1,10 +1,9 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  padding: 0 2rem;
   padding-top: 9rem;
-  max-width: 140rem;
-  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const Title = styled.h2`
@@ -19,6 +18,13 @@ export const Content = styled.div`
   display: flex;
   justify-content: center;
   gap: 1rem;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 export const Image = styled.img`
@@ -47,6 +53,10 @@ export const Card = styled.div`
   background-color: #000;
   border-radius: 0.5rem;
   position: relative;
+
+  @media (max-width: 768px) {
+    max-width: 100%;
+  }
 
   :hover ${Image} {
     opacity: 0.2;
