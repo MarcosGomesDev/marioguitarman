@@ -7,6 +7,7 @@ import Home from "./components/Home";
 import Projects from "./components/Projects";
 import { GlobalStyles } from "./styles/GlobalStyles";
 import Contact from "./components/Contact";
+import { CarouselComponent } from "./components/Carousel";
 
 function App() {
   const home = React.useRef<HTMLElement | null>(null);
@@ -50,6 +51,7 @@ function App() {
       />
       <Home ref={home} onClick={() => scrollToSection(about)} />
       <About ref={about} />
+      <CarouselComponent />
       <Projects ref={projects} />
       <Contact ref={contact} />
       <Button active={activeElement} onClick={() => scrollToSection(home)} />
