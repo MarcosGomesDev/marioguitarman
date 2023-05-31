@@ -3,6 +3,8 @@ import { Container, Content, Description, Header, Link, Title } from "./styles";
 import { FaInstagram, FaYoutube } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 
+const email = "marcosgomesdev@gmail.com";
+
 const Contact = forwardRef<HTMLElement>((props, ref) => {
   return (
     <Container ref={ref}>
@@ -22,7 +24,7 @@ const Contact = forwardRef<HTMLElement>((props, ref) => {
           <FaYoutube />
           Youtube
         </Link>
-        <Link onClick={() => window.open("https://github.com/MarcosGomesDev")}>
+        <Link onClick={() => window.open(`mailto:${email}`)}>
           <AiOutlineMail />
           Gmail
         </Link>

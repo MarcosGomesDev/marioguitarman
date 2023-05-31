@@ -46,7 +46,7 @@ export const Content = styled.div`
   margin-top: 3rem;
 `;
 
-export const Link = styled.button`
+export const Link = styled.a`
   width: 29.7rem;
   height: 6rem;
   border-radius: 0.5rem;

@@ -49,13 +49,13 @@ export const Card = styled.div`
   width: 45rem;
   min-width: 31rem;
   height: 25rem;
-  border: 0.2rem solid #131313;
+  border: 0.2rem solid #808080;
   background-color: #000;
   border-radius: 0.5rem;
   position: relative;
 
   @media (max-width: 768px) {
-    max-width: 100%;
+    max-width: 90%;
   }
 
   :hover ${Image} {

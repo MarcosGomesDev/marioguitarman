@@ -17,6 +17,6 @@ export const Image = styled.img`
   }
 
   @media (max-width: 450px) {
-    height: 50vh;
+    height: 46vh;
   }
 `;
