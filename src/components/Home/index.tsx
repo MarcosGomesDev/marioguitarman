@@ -17,6 +17,7 @@ const Home = React.forwardRef<HTMLElement, Props>(({ onClick }, ref) => {
 
       <MenuSocial>
         <ButtonIcon
+          aria-labelledby="Abrir youtube"
           onClick={() =>
             window.open("https://www.instagram.com/marioguitarman/")
           }
@@ -24,13 +25,17 @@ const Home = React.forwardRef<HTMLElement, Props>(({ onClick }, ref) => {
           <FaYoutube />
         </ButtonIcon>
         <ButtonIcon
+          aria-labelledby="Abrir instagram"
           onClick={() =>
             window.open("https://www.youtube.com/@marioguitarman8337/")
           }
         >
           <FaInstagram />
         </ButtonIcon>
-        <ButtonIcon onClick={() => window.open(`mailto:${email}`)}>
+        <ButtonIcon
+          aria-labelledby="Enviar e-mail"
+          onClick={() => window.open(`mailto:${email}`)}
+        >
           <AiOutlineMail />
         </ButtonIcon>
       </MenuSocial>

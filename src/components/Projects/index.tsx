@@ -22,7 +22,7 @@ const Projects = forwardRef<HTMLElement>((props, ref) => {
       <Title>Conheça um pouco do meu trabalho</Title>
       <Content>
         <Card>
-          <Image src={Image1} />
+          <Image src={Image1} alt="mario guitarman tocando" />
           <Description>
             <CardContent>
               <Button
@@ -37,7 +37,7 @@ const Projects = forwardRef<HTMLElement>((props, ref) => {
           </Description>
         </Card>
         <Card>
-          <Image src={Image2} />
+          <Image src={Image2} alt="mario guitarman tocando" />
           <Description>
             <CardContent>
               <Button
@@ -52,7 +52,7 @@ const Projects = forwardRef<HTMLElement>((props, ref) => {
           </Description>
         </Card>
         <Card>
-          <Image src={Image3} />
+          <Image src={Image3} alt="mario guitarman tocando" />
           <Description>
             <CardContent>
               <Button

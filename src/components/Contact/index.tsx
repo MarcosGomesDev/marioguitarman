@@ -17,6 +17,7 @@ const Contact = forwardRef<HTMLElement>((props, ref) => {
       </Header>
       <Content>
         <Link
+          href="#"
           onClick={() =>
             window.open("https://www.youtube.com/@marioguitarman8337")
           }
@@ -24,11 +25,12 @@ const Contact = forwardRef<HTMLElement>((props, ref) => {
           <FaYoutube />
           Youtube
         </Link>
-        <Link onClick={() => window.open(`mailto:${email}`)}>
+        <Link href="#" onClick={() => window.open(`mailto:${email}`)}>
           <AiOutlineMail />
           Gmail
         </Link>
         <Link
+          href="#"
           onClick={() =>
             window.open("https://www.instagram.com/marioguitarman/")
           }
