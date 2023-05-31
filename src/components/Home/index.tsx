@@ -1,10 +1,13 @@
 import React from "react";
 import { FaYoutube, FaInstagram } from "react-icons/fa";
 import { Button, ButtonIcon, Container, MenuSocial, SubTitle } from "./styles";
+import { AiOutlineMail } from "react-icons/ai";
 
 interface Props {
   onClick(): void;
 }
+
+const email = "contatosmarioguitarman@gmail.com";
 
 const Home = React.forwardRef<HTMLElement, Props>(({ onClick }, ref) => {
   return (
@@ -27,11 +30,9 @@ const Home = React.forwardRef<HTMLElement, Props>(({ onClick }, ref) => {
         >
           <FaInstagram />
         </ButtonIcon>
-        {/* <ButtonIcon
-          onClick={() => window.open("https://www.instagram.com/markkin_sg/")}
-        >
-          <FaLinkedin />
-        </ButtonIcon> */}
+        <ButtonIcon onClick={() => window.open(`mailto:${email}`)}>
+          <AiOutlineMail />
+        </ButtonIcon>
       </MenuSocial>
     </Container>
   );

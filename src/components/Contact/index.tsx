@@ -3,7 +3,7 @@ import { Container, Content, Description, Header, Link, Title } from "./styles";
 import { FaInstagram, FaYoutube } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 
-const email = "marcosgomesdev@gmail.com";
+const email = "contatosmarioguitarman@gmail.com";
 
 const Contact = forwardRef<HTMLElement>((props, ref) => {
   return (

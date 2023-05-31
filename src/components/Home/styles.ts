@@ -10,8 +10,8 @@ export const Container = styled.section`
   justify-content: center;
   background-image: linear-gradient(
       to right,
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.7)
+      rgba(1, 1, 1, 0.7),
+      rgba(1, 1, 1, 0.7)
     ),
     url(${Image});
   background-size: cover, contain;
