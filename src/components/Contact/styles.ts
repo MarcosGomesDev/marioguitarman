@@ -18,6 +18,7 @@ export const Header = styled.header`
 export const Title = styled.h2`
   font-family: "InterBold";
   font-size: 6rem;
+  font-display: swap;
   letter-spacing: 0.2rem;
   color: #ff4040;
   display: inline;
@@ -25,6 +26,7 @@ export const Title = styled.h2`
 
   @media (max-width: 430px) {
     font-size: 4.2rem;
+    font-display: swap;
   }
 `;
 
@@ -34,6 +36,7 @@ export const Description = styled.p`
   color: #fff;
   margin: 1rem 0 2rem 0;
   font-size: 1.8rem;
+  font-display: swap;
   text-align: center;
   font-family: "BarlowRegular";
 `;
@@ -57,6 +60,7 @@ export const Link = styled.a`
   justify-content: center;
   gap: 1rem;
   font-size: 2rem;
+  font-display: swap;
   transition: all ease 0.3s;
   color: #fff;
   cursor: pointer;

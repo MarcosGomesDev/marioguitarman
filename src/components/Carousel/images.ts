@@ -9,7 +9,7 @@ import image8 from "../../assets/image8.webp";
 import image9 from "../../assets/image9.webp";
 import image10 from "../../assets/image10.webp";
 
-export const images = [
+export const imagesDesk = [
   {
     image: image1,
     alt: "mario guitarman tocando",

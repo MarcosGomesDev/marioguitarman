@@ -8,7 +8,7 @@ import {
   Title,
 } from "./styles";
 import { IoIosArrowForward } from "react-icons/io";
-import Perfil from "../../assets/DSC_7086.jpg";
+import Perfil from "../../assets/perfil.webp";
 
 const About = React.forwardRef<HTMLElement>((props, ref) => {
   return (

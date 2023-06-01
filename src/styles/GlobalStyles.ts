@@ -140,12 +140,14 @@ export const GlobalStyles = createGlobalStyle`
 
     html {
         font-size: 62.5%;
+        font-display: swap;
         scroll-behavior: smooth;
     }
 
     @media (max-width: 430px) {
         html {
             font-size: 60%;
+            font-display: swap;
         }
     }
 `;

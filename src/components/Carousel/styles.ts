@@ -1,24 +1,39 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
-  margin: 6rem 10rem;
+export const ContainerDesk = styled.div`
+  margin: 6rem 4rem;
 
   @media (max-width: 768px) {
-    margin: 6rem auto;
+    display: none;
+  }
+`;
+
+export const ContainerMobile = styled.div`
+  margin: 6rem auto;
+  display: none;
+
+  @media (max-width: 768px) {
+    display: block;
   }
 `;
 
 export const Image = styled.img`
   width: 100%;
-  height: 115vh;
+  height: 100%;
 
   @media (max-width: 868px) {
-    height: 90vh;
     width: 100%;
   }
 
   @media (max-width: 450px) {
-    height: 46vh;
     width: 100%;
+  }
+`;
+
+export const ContainerArrow = styled.div`
+  display: block;
+
+  @media (max-width: 868px) {
+    display: none;
   }
 `;

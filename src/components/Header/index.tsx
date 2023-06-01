@@ -37,24 +37,60 @@ const Header: React.FC<Props> = ({
       <HeaderContent>
         <div style={{ flex: 1 }}></div>
         <MenuHeader>
-          <MenuOption onClick={onClickToHome}>Home</MenuOption>
-          <MenuOption onClick={onClickToAbout}>Sobre</MenuOption>
-          <MenuOption onClick={onClickToProjects}>Projetos</MenuOption>
-          <MenuOption onClick={onClickToContact}>Contato</MenuOption>
+          <MenuOption
+            onClick={onClickToHome}
+            aria-labelledby="Home"
+            aria-label="button home"
+          >
+            Home
+          </MenuOption>
+          <MenuOption
+            onClick={onClickToAbout}
+            aria-labelledby="Sobre"
+            aria-label="button sobre"
+          >
+            Sobre
+          </MenuOption>
+          <MenuOption
+            onClick={onClickToProjects}
+            aria-labelledby="Projetos"
+            aria-label="button projetos"
+          >
+            Projetos
+          </MenuOption>
+          <MenuOption
+            onClick={onClickToContact}
+            aria-labelledby="Contato"
+            aria-label="button contato"
+          >
+            Contato
+          </MenuOption>
         </MenuHeader>
 
         <MenuMobile className={active ? "active" : ""}>
-          <ButtonMenu onClick={() => setActive(!active)} aria-labelledby="Menu">
+          <ButtonMenu
+            onClick={() => setActive(!active)}
+            aria-labelledby="Menu"
+            aria-label="button menu"
+          >
             <IconButton />
           </ButtonMenu>
           <ListMenu>
             <ItemMenu>
-              <MenuOption onClick={onClickToHome} aria-labelledby="Home">
+              <MenuOption
+                onClick={onClickToHome}
+                aria-labelledby="Home"
+                aria-label="button home"
+              >
                 Home
               </MenuOption>
             </ItemMenu>
             <ItemMenu>
-              <MenuOption onClick={onClickToAbout} aria-labelledby="Sobre">
+              <MenuOption
+                onClick={onClickToAbout}
+                aria-label="button sobre"
+                aria-labelledby="Sobre"
+              >
                 Sobre
               </MenuOption>
             </ItemMenu>
@@ -62,12 +98,17 @@ const Header: React.FC<Props> = ({
               <MenuOption
                 onClick={onClickToProjects}
                 aria-labelledby="Projetos"
+                aria-label="button projetos"
               >
                 Projetos
               </MenuOption>
             </ItemMenu>
             <ItemMenu>
-              <MenuOption onClick={onClickToContact} aria-labelledby="Contato">
+              <MenuOption
+                onClick={onClickToContact}
+                aria-labelledby="Contato"
+                aria-label="button contato"
+              >
                 Contato
               </MenuOption>
             </ItemMenu>

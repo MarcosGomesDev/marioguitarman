@@ -19,8 +19,8 @@ export const Container = styled.section`
 `;
 
 export const Image = styled.img`
-  min-width: 45rem;
-  height: 45rem;
+  width: 450px;
+  height: 450px;
   object-fit: cover;
   border-radius: 100%;
   box-shadow: 0.1rem 0.1rem 1rem 0.1rem #ff0000;
@@ -47,21 +47,25 @@ export const ContainerAbout = styled.div`
 export const Title = styled.h3`
   font-family: "BarlowRegular";
   font-size: 3.2rem;
+  font-display: swap;
   color: #fff;
   margin: 2rem 0;
 
   @media (max-width: 620px) {
     font-size: 2.3rem;
+    font-display: swap;
   }
 
   @media (max-width: 430px) {
     font-size: 2rem;
+    font-display: swap;
   }
 `;
 
 export const HighlightText = styled.p`
   font-family: "InterRegular";
   font-size: 1.2rem;
+  font-display: swap;
   letter-spacing: 0.3rem;
   align-items: center;
   display: flex;
@@ -71,6 +75,7 @@ export const HighlightText = styled.p`
 
 export const Text = styled.p`
   font-size: 1.7rem;
+  font-display: swap;
   color: #ccc;
   margin-bottom: 3rem;
   font-family: "InterRegular";
