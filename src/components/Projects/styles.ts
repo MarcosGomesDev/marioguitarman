@@ -13,6 +13,10 @@ export const Title = styled.h2`
   margin-bottom: 5rem;
   color: #ff4040;
   text-align: center;
+
+  @media (max-width: 430px) {
+    font-size: 3rem;
+  }
 `;
 
 export const Content = styled.div`

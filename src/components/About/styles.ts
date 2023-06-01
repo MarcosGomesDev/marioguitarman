@@ -26,6 +26,10 @@ export const Image = styled.img`
   object-fit: cover;
   border-radius: 100%;
   box-shadow: 0.1rem 0.1rem 1rem 0.1rem #ff0000;
+
+  @media (max-width: 450px) {
+    height: auto;
+  }
 `;
 
 export const ContainerAbout = styled.div`

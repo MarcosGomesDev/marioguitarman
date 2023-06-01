@@ -9,11 +9,12 @@ export const ContainerDesk = styled.div`
 `;
 
 export const ContainerMobile = styled.div`
-  margin: 6rem auto;
+  margin: 6rem 0;
   display: none;
 
   @media (max-width: 768px) {
     display: block;
+    width: 100%;
   }
 `;
 
@@ -27,6 +28,7 @@ export const Image = styled.img`
 
   @media (max-width: 450px) {
     width: 100%;
+    height: auto;
   }
 `;
 

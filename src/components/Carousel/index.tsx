@@ -10,6 +10,7 @@ import {
   MdOutlineKeyboardArrowLeft,
   MdOutlineKeyboardArrowRight,
 } from "react-icons/md";
+import { imagesMobile } from "./imagesMobile";
 
 type ArrowProps = {
   onClick?: React.MouseEventHandler<HTMLDivElement> | undefined;
@@ -52,6 +53,8 @@ export function CarouselComponent() {
           style={{
             cursor: "grab",
           }}
+          autoplay
+          autoplayInterval={500}
           renderCenterLeftControls={({ previousSlide }) => (
             <Arrow left onClick={() => previousSlide()} />
           )}
@@ -59,21 +62,22 @@ export function CarouselComponent() {
             <Arrow onClick={() => nextSlide()} />
           )}
           renderBottomCenterControls={({ currentSlide }) => (
-            <div style={{ display: "flex", justifyContent: "center" }}>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                marginBottom: 10,
+              }}
+            >
               {imagesDesk.map((_, index) => (
                 <div
                   key={index}
                   style={{
-                    width: 10,
-                    height: 10,
-                    marginBottom: "6%",
-                    borderRadius: "50%",
+                    width: 32,
+                    height: 2,
                     margin: "0 5px",
                     backgroundColor:
-                      currentSlide === index ? "#ff0000" : "transparent",
-                    border: `2px solid ${
-                      currentSlide === index ? "transparent" : "#fff"
-                    }`,
+                      currentSlide === index ? "#ff0000" : "#fff",
                   }}
                 ></div>
               ))}
@@ -86,7 +90,46 @@ export function CarouselComponent() {
         </Carousel>
       </ContainerDesk>
 
-      <ContainerMobile></ContainerMobile>
+      <ContainerMobile>
+        <Carousel
+          style={{
+            cursor: "grab",
+          }}
+          autoplay
+          renderCenterLeftControls={({ previousSlide }) => (
+            <Arrow left onClick={() => previousSlide()} />
+          )}
+          renderCenterRightControls={({ nextSlide }) => (
+            <Arrow onClick={() => nextSlide()} />
+          )}
+          renderBottomCenterControls={({ currentSlide }) => (
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                marginBottom: 5,
+              }}
+            >
+              {imagesMobile.map((_, index) => (
+                <div
+                  key={index}
+                  style={{
+                    width: 24,
+                    height: 1,
+                    margin: "0 5px",
+                    backgroundColor:
+                      currentSlide === index ? "#ff0000" : "#fff",
+                  }}
+                ></div>
+              ))}
+            </div>
+          )}
+        >
+          {imagesMobile.map((img, index) => (
+            <Image key={index} src={img.image} alt={img.alt} />
+          ))}
+        </Carousel>
+      </ContainerMobile>
     </>
   );
 }
