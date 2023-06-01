@@ -21,23 +21,11 @@ export const Container = styled.section`
 export const Image = styled.img`
   width: 450px;
   height: 450px;
+  max-width: 100%;
+  max-height: 100%;
   object-fit: cover;
   border-radius: 100%;
   box-shadow: 0.1rem 0.1rem 1rem 0.1rem #ff0000;
-
-  @media (max-width: 1000px) {
-    min-width: 40rem;
-    height: 40rem;
-  }
-
-  @media (max-width: 425px) {
-    min-width: 30rem;
-    height: 30rem;
-  }
-
-  @media (max-width: 300px) {
-    display: none;
-  }
 `;
 
 export const ContainerAbout = styled.div`
