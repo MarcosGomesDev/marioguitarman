@@ -10,6 +10,8 @@ export function CarouselComponent() {
           cursor: "grab",
         }}
         autoplay
+        withoutControls
+        autoplayReverse
       >
         {images.map((img, index) => (
           <Image key={index} src={img.image} alt={img.alt} />

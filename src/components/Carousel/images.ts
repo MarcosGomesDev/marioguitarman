@@ -1,12 +1,13 @@
-import image1 from "../../assets/IMG-20201224-WA0150.jpeg";
-import image2 from "../../assets/IMG-20190611-WA0001.jpeg";
-import image3 from "../../assets/IMG_0009.jpeg";
-import image4 from "../../assets/198bedc5-ffe7-4045-b1ba-204afcc7650c.jpeg";
-import image5 from "../../assets/5639f8d5-d379-44f7-ab40-bbe7e711d2b7.jpeg";
-import image6 from "../../assets/20180407_155624.jpeg";
-import image7 from "../../assets/20180408_101720.jpeg";
-import image8 from "../../assets/20181017_190735.jpeg";
-import image9 from "../../assets/IMG_1029.jpeg";
+import image1 from "../../assets/image1.webp";
+import image2 from "../../assets/image2.webp";
+import image3 from "../../assets/image3.webp";
+import image4 from "../../assets/image4.webp";
+import image5 from "../../assets/image5.webp";
+import image6 from "../../assets/image6.webp";
+import image7 from "../../assets/image7.webp";
+import image8 from "../../assets/image8.webp";
+import image9 from "../../assets/image9.webp";
+import image10 from "../../assets/image10.webp";
 
 export const images = [
   {
@@ -43,6 +44,10 @@ export const images = [
   },
   {
     image: image9,
+    alt: "mario guitarman tocando",
+  },
+  {
+    image: image10,
     alt: "mario guitarman tocando",
   },
 ];
