@@ -11,8 +11,7 @@ export const FooterContainer = styled.footer`
 
 export const Title = styled.h2`
   font-size: 1.8rem;
-  font-display: swap;
-  font-family: "BarlowRegular";
+  font-family: "Barlow", sans-serif;
   font-weight: 400;
   color: #fff;
 `;

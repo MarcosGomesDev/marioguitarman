@@ -21,35 +21,32 @@ export const Container = styled.section`
 
 export const Title = styled.h2`
   color: #fff;
-  font-family: "PoppinsThin";
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
   text-align: center;
   font-size: 5rem;
-  font-display: swap;
   margin-top: 1rem;
 
   @media (max-width: 900px) {
     font-size: 3rem;
-    font-display: swap;
   }
 `;
 
 export const SubTitle = styled.p`
   color: #fff;
-  font-family: "InterSemiBold";
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
   font-size: 7.5rem;
-  font-display: swap;
   font-weight: 100;
   text-align: center;
   margin-top: 16rem;
 
   @media (max-width: 900px) {
     font-size: 5rem;
-    font-display: swap;
   }
 
   @media (max-width: 430px) {
     font-size: 2.8rem;
-    font-display: swap;
   }
 `;
 
@@ -59,29 +56,28 @@ export const InsideText = styled.span`
 
 export const Description = styled.p`
   color: #fff;
-  font-family: "PoppinsLight";
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
   font-size: 1.4rem;
-  font-display: swap;
   max-width: 45rem;
   margin: 1rem auto 3rem auto;
   text-align: center;
 
   @media (max-width: 430px) {
     font-size: 1.4rem;
-    font-display: swap;
     max-width: 90%;
   }
 `;
 
 export const Highlight = styled.p`
   display: inline;
-  font-family: "PoppinsRegular";
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
   background-color: #131313;
   color: #fff;
   border-radius: 0.4rem;
   padding: 0.8rem;
   font-size: 1.4rem;
-  font-display: swap;
   text-transform: uppercase;
 `;
 
@@ -112,7 +108,6 @@ export const MenuSocial = styled.div`
 export const ButtonIcon = styled.button`
   background-color: transparent;
   font-size: 3rem;
-  font-display: swap;
   transition: all 0.3s;
   color: #fff;
   cursor: pointer;

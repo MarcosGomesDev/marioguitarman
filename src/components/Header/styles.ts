@@ -31,9 +31,9 @@ export const MenuHeader = styled.nav`
 `;
 
 export const MenuOption = styled.button`
-  font-family: "InterRegular";
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
   font-size: 2rem;
-  font-display: swap;
   color: #fff;
   background: none;
   border: none;
@@ -59,7 +59,6 @@ export const Image = styled.img`
 
 export const ButtonMenu = styled.button`
   font-size: 1.8rem;
-  font-display: swap;
   background-color: transparent;
   cursor: pointer;
 `;
@@ -100,9 +99,9 @@ export const ListMenu = styled.ul`
 `;
 
 export const ItemMenu = styled.li`
-  font-family: "BarlowRegular";
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
   font-size: 2rem;
-  font-display: swap;
   color: #fff;
   transition: all 0.3s;
 

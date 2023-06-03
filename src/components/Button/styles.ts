@@ -15,7 +15,6 @@ export const Container = styled.button<Props>`
   right: 4rem;
   cursor: pointer;
   font-size: 2rem;
-  font-display: swap;
   color: #fff;
   display: ${({ active }) => (active ? "block" : "none")};
 

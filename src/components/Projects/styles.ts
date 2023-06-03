@@ -7,9 +7,9 @@ export const Container = styled.section`
 `;
 
 export const Title = styled.h2`
-  font-family: "BarlowBold";
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
   font-size: 4rem;
-  font-display: swap;
   margin-bottom: 5rem;
   color: #ff4040;
   text-align: center;
@@ -87,8 +87,8 @@ export const Card = styled.div`
 export const CardTitle = styled.h3`
   color: #fff;
   font-size: 2.4rem;
-  font-display: swap;
-  font-family: "BarlowRegular";
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
 `;
 
 export const CardContent = styled.nav`

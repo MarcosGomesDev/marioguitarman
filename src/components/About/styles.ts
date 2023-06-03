@@ -37,27 +37,25 @@ export const ContainerAbout = styled.div`
 `;
 
 export const Title = styled.h3`
-  font-family: "BarlowRegular";
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
   font-size: 3.2rem;
-  font-display: swap;
   color: #fff;
   margin: 2rem 0;
 
   @media (max-width: 620px) {
     font-size: 2.3rem;
-    font-display: swap;
   }
 
   @media (max-width: 430px) {
     font-size: 2rem;
-    font-display: swap;
   }
 `;
 
 export const HighlightText = styled.p`
-  font-family: "InterRegular";
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
   font-size: 1.2rem;
-  font-display: swap;
   letter-spacing: 0.3rem;
   align-items: center;
   display: flex;
@@ -67,10 +65,10 @@ export const HighlightText = styled.p`
 
 export const Text = styled.p`
   font-size: 1.7rem;
-  font-display: swap;
   color: #ccc;
   margin-bottom: 3rem;
-  font-family: "InterRegular";
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
   text-align: justify;
   line-height: 2.5rem;
 `;

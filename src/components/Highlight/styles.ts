@@ -20,26 +20,26 @@ export const TextContainer = styled.div`
 `;
 
 export const TextNumber = styled.p`
-  font-family: "InterBlack";
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
   font-size: 5rem;
-  font-display: swap;
   letter-spacing: 0.1rem;
   margin-left: 1rem;
   color: #fff;
 `;
 
 export const PlusText = styled.span`
-  font-family: "InterBlack";
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
   font-size: 6rem;
-  font-display: swap;
   color: #2ef8a0;
   margin-top: -1rem;
 `;
 
 export const Description = styled.p`
   font-size: 1.7rem;
-  font-display: swap;
-  font-family: "BarlowSemiBold";
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
   color: #b5b5b5;
   max-width: 20rem;
   text-align: center;

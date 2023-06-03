@@ -20,7 +20,7 @@ export const ContainerMobile = styled.div`
 
 export const Image = styled.img`
   width: 100%;
-  height: 100%;
+  min-height: 100%;
 
   @media (max-width: 868px) {
     width: 100%;
