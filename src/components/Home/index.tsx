@@ -19,7 +19,7 @@ const Home = React.forwardRef<HTMLElement, Props>(({ onClick }, ref) => {
         <ButtonIcon
           aria-labelledby="Abrir youtube"
           onClick={() =>
-            window.open("https://www.instagram.com/marioguitarman/")
+            window.open("https://www.youtube.com/@marioguitarman8337/")
           }
         >
           <FaYoutube />
@@ -27,7 +27,7 @@ const Home = React.forwardRef<HTMLElement, Props>(({ onClick }, ref) => {
         <ButtonIcon
           aria-labelledby="Abrir instagram"
           onClick={() =>
-            window.open("https://www.youtube.com/@marioguitarman8337/")
+            window.open("https://www.instagram.com/marioguitarman/")
           }
         >
           <FaInstagram />
