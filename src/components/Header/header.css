@@ -1,0 +1,36 @@
+.icon {
+  border-top: 0.2rem solid #fff;
+  display: block;
+  color: #fff;
+}
+
+.icon::after,
+::before {
+  content: "";
+  display: block;
+  width: 3rem;
+  height: 0.2rem;
+  background-color: currentColor;
+  margin-top: 0.5rem;
+  transition: 0.7s;
+  position: relative;
+}
+
+.active ${ListMenu} {
+  height: 28rem;
+  padding: 4rem;
+  margin-top: 0.9rem;
+}
+
+&.active .icon {
+  border-top-color: transparent;
+}
+
+&.active .icon::before {
+  transform: rotate(135deg);
+}
+
+&.active ${IconButton}::after {
+  transform: rotate(-135deg);
+  top: -0.7rem;
+}
