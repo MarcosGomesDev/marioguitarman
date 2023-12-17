@@ -49,7 +49,7 @@ export function ContactSection({ id }: Props) {
           }
         >
           <FaInstagram className="mr-4" size={24} />
-          Gmail
+          Instagram
         </button>
       </div>
     </div>
