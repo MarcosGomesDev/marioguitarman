@@ -9,7 +9,7 @@ export function AboutSection({ id }: Props) {
     <div id={id} className="flex min-w-full mb-6 lg:mb-0 py-32 md:py-48">
       <div className="flex flex-col lg:flex-row w-full justify-between items-center">
         <img
-          src="https://res.cloudinary.com/gomesdev/image/upload/v1702670935/marioguitarman/desktop/Novo_Projeto_o6gxaq.jpg"
+          src="https://res.cloudinary.com/gomesdev/image/upload/v1702993726/marioguitarman/Novo_Projeto_o6gxaq_zfao7m.webp"
           alt="mario"
           className="rounded-full border-4 border-red object-cover mb-7 lg:mb-0 md:scale-100 scale-90"
         />

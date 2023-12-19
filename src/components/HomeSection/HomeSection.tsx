@@ -20,6 +20,8 @@ export function HomeSection({ id }: Props) {
         <TitleShadowAnimated title="Mário Guitarman" />
         <a
           href="#about"
+          aria-labelledby="Ir a sessão de sobre"
+          aria-label="Ir a sessão de sobre"
           className="text-white text-2xl tracking-widest bg-red px-20 py-4 rounded-2xl hover:scale-110 transition-all duration-300 ease-in-out font-semibold mt-12 md:mt-20"
         >
           Saiba mais
@@ -30,6 +32,8 @@ export function HomeSection({ id }: Props) {
             target="_blank"
             className="text-6xl text-white hover:cursor-pointer hover:scale-110 hover:text-red transition-all duration-300 ease-in-out"
             aria-labelledby="Abrir youtube"
+            aria-braillelabel="Abrir youtube"
+            aria-label="Abrir youtube"
           >
             <FaYoutube />
           </a>
@@ -38,6 +42,7 @@ export function HomeSection({ id }: Props) {
             target="_blank"
             className="text-6xl text-white hover:cursor-pointer hover:scale-110 hover:text-red transition-all duration-300 ease-in-out"
             aria-labelledby="Abrir instagram"
+            aria-label="Abrir instagram"
           >
             <FaInstagram />
           </a>
@@ -46,6 +51,7 @@ export function HomeSection({ id }: Props) {
             target="_blank"
             className="text-6xl text-white hover:cursor-pointer hover:scale-110 hover:text-red transition-all duration-300 ease-in-out"
             aria-labelledby="Enviar e-mail"
+            aria-label="Enviar e-mail"
           >
             <AiOutlineMail />
           </a>
