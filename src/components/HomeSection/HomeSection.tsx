@@ -21,8 +21,8 @@ export function HomeSection({ id }: Props) {
         <a
           href="#about"
           role="link"
-          aria-labelledby="Ir a sessão de sobre"
-          aria-label="Ir a sessão de sobre"
+          aria-labelledby="Saiba mais"
+          aria-label="Saiba mais"
           className="text-white text-2xl tracking-widest bg-[#9E0000] px-20 py-4 rounded-2xl hover:scale-110 transition-all duration-300 ease-in-out font-semibold mt-12 md:mt-20"
         >
           Saiba mais
