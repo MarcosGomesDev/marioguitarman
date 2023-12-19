@@ -79,7 +79,7 @@ export default {
       },
       backgroundImage: {
         "music-background":
-          "linear-gradient(to right, rgba(4,4,4, 0.7), rgba(4,4,4, 0.7)), url('./src/assets/background.webp')",
+          "linear-gradient(to right, rgba(4,4,4, 0.7), rgba(4,4,4, 0.7)), url('/src/assets/background.webp')",
       },
 
       keyframes: {
