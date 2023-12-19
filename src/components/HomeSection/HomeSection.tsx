@@ -22,7 +22,7 @@ export function HomeSection({ id }: Props) {
           href="#about"
           aria-labelledby="Ir a sessão de sobre"
           aria-label="Ir a sessão de sobre"
-          className="text-white text-2xl tracking-widest bg-red px-20 py-4 rounded-2xl hover:scale-110 transition-all duration-300 ease-in-out font-semibold mt-12 md:mt-20"
+          className="text-white text-2xl tracking-widest bg-[##9E0000] px-20 py-4 rounded-2xl hover:scale-110 transition-all duration-300 ease-in-out font-semibold mt-12 md:mt-20"
         >
           Saiba mais
         </a>
