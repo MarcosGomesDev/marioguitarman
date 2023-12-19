@@ -24,6 +24,8 @@ export function WorkingSection({ id }: Props) {
               src={working.image}
               alt="Mário Guitarman tocando"
               className="object-cover w-full h-full rounded-lg"
+              loading="lazy"
+              decoding="async"
             />
             <div className="h-full w-full flex flex-col items-center justify-center gap-8 opacity-0 absolute top-0 hover:bg-black hover:bg-opacity-60">
               <nav className="w-full flex justify-center gap-4 z-20">

@@ -43,6 +43,8 @@ export function Carousel({ slides, options }: PropType) {
                 />
               </picture>
               <img
+                loading="lazy"
+                decoding="async"
                 className="embla__slide__img rounded-2xl"
                 src={imageByIndex(index).mobile.image}
                 alt={imageByIndex(index).mobile.alt}

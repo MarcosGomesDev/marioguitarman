@@ -14,6 +14,8 @@ export function AboutSection({ id }: Props) {
           className="rounded-full border-4 border-red object-cover mb-7 lg:mb-0 md:scale-100 scale-90"
           width={450}
           height={450}
+          loading="lazy"
+          decoding="async"
         />
 
         <div className="lg:w-1/2 flex flex-col h-max justify-between px-8">
