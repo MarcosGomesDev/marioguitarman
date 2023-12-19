@@ -56,6 +56,7 @@ export function Header({ sections }: HeaderProps) {
       <div className="flex md:hidden justify-end items-center w-full px-12">
         <button
           id="hamburger-button"
+          aria-label="open menu"
           className="text-3xl md:hidden cursor-pointer relative w-8 h-8"
         >
           {/* &#9776; */}

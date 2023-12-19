@@ -79,7 +79,7 @@ export default {
       },
       backgroundImage: {
         "music-background":
-          "linear-gradient(to right, rgba(4,4,4, 0.7), rgba(4,4,4, 0.7)), url('https://res.cloudinary.com/gomesdev/image/upload/v1702993733/marioguitarman/IMG_1111_1_1_osfdzr_wvdqvc.webp')",
+          "linear-gradient(to right, rgba(4,4,4, 0.7), rgba(4,4,4, 0.7)), url('./src/assets/background.webp')",
       },
 
       keyframes: {
