@@ -20,6 +20,7 @@ export function HomeSection({ id }: Props) {
         <TitleShadowAnimated title="Mário Guitarman" />
         <a
           href="#about"
+          role="link"
           aria-labelledby="Ir a sessão de sobre"
           aria-label="Ir a sessão de sobre"
           className="text-white text-2xl tracking-widest bg-[#9E0000] px-20 py-4 rounded-2xl hover:scale-110 transition-all duration-300 ease-in-out font-semibold mt-12 md:mt-20"
